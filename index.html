@@ -1,96 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS ORIGINAL -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- CSS FONT AWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- GOOGLE FONT QUICKSAND -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
-    <title>Portofilio - Misbah</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS ORIGINAL -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- CSS FONT AWESOME -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- GOOGLE FONT QUICKSAND -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+		<title>Portofilio - Misbah</title>
 
-    <!-- Jquery -->
-    <script src="JS/jquery-3.6.3.min.js"></script>
-  </head>
+		<!-- Jquery -->
+		<script src="JS/jquery-3.6.3.min.js"></script>
+	</head>
 
-  <body>
-    <div class="loader-container">
-      <div class="ring"></div>
-      <div class="ring"></div>
-      <div class="ring"></div>
-      <span class="loading">loading...</span>
-    </div>
+	<body>
+		<div class="loader-container">
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<span class="loading">loading...</span>
+		</div>
 
-    <!-- NAVBAR -->
-    <header class="navbar-container">
-      <!-- LOGO -->
-      <div class="logo">
-        <img src="assets/img/logo-mizz.png" alt="Logo-Misbahudin" />
-      </div>
-      <!-- NAVBAR LIST-->
-      <nav class="nav-list">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Tech Stack</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- END OF NAVBAR -->
+		<!-- NAVBAR -->
+		<div class="navbar-container">
+			<header>
+				<!-- LOGO -->
+				<div class="logo">
+					<img src="assets/img/logo-mizz.png" alt="Logo-Misbahudin" />
+				</div>
+				<!-- NAVBAR LIST-->
+				<nav class="nav-list">
+					<div id="hamburger-menu">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+							<path fill="none" d="M0 0h24v24H0z" />
+							<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
+						</svg>
+					</div>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Tech Stack</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<!-- END OF NAVBAR -->
 
-    <!-- MAIN CONTENT -->
-    <main>
-      <div class="content">
-        <div class="content-description">
-          <div class="content-title">
-            <h1>
-              Hi There &#128075; <br />
-              My name is <span>Misbah</span> <br />
-              I build things for web
-            </h1>
-            <a href="#"><button>Hire Me</button></a>
-          </div>
-        </div>
-        <div class="content-image">
-          <img src="assets/img/bocchi-chan.png" alt="Misbahudin" />
-        </div>
-      </div>
-      <!-- END OF MAIN -->
+		<!-- MAIN CONTENT -->
+		<main>
+			<div class="content">
+				<div class="content-description">
+					<div class="content-title">
+						<h1>
+							Hi There &#128075; <br />
+							My name is <span>Misbah</span> <br />
+							I build things for web
+						</h1>
+						<a href="#"><button>Hire Me</button></a>
+					</div>
+				</div>
+				<div class="content-image">
+					<img src="assets/img/bocchi-chan.png" alt="Misbahudin" />
+				</div>
+			</div>
+			<!-- END OF MAIN -->
 
-      <!-- SOCIAL MEDIA LINK -->
-      <aside>
-        <div class="social-media">
-          <ul>
-            <li>
-              <a href="https://linkedin.com/in/misbahudin99" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/mizz_kun" target="_blank"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="https://facebook.com/misbahudin99" target="_blank"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="https://github.com/mizzcode" target="_blank"><i class="fab fa-github"></i></a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-    </main>
+			<!-- SOCIAL MEDIA LINK -->
+			<aside>
+				<div class="social-media">
+					<ul>
+						<li>
+							<a href="https://linkedin.com/in/misbahudin99" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/mizz_kun" target="_blank"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="https://facebook.com/misbahudin99" target="_blank"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://github.com/mizzcode" target="_blank"><i class="fab fa-github"></i></a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+		</main>
 
-    <script src="JS/index.js"></script>
-  </body>
+		<script src="JS/index.js"></script>
+	</body>
 </html>
