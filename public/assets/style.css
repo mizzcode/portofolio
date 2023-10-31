@@ -80,3 +80,16 @@ main .header-content h1 {
    background-color: #00043b;
    border-radius: 2rem;
 }
+
+@media screen and (max-width: 425px) {
+   body {
+      background-position: center;
+      background-size: cover;
+   }
+   main .header-content h1 {
+      padding: 1.5rem;
+      color: #fff;
+      background-color: #00043b;
+      border-radius: 0rem;
+   }
+}
