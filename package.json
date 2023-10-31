@@ -1,0 +1,25 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Web Portofolio",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizzcode/portofolio.git"
+  },
+  "author": "Misbahudin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mizzcode/portofolio/issues"
+  },
+  "homepage": "https://github.com/mizzcode/portofolio#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
